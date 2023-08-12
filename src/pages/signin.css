@@ -1,0 +1,88 @@
+.signin {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  /* input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  } */
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #0F67FE;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px 30px;
+    width: 150px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #0F67FE;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+    width: 200px;
+  }
+
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+    font-weight: 700;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+}
+
+.email{
+
+    font-size: 14px;
+    font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+      font-weight: 600;
+}
+.pass{
+    font-size: 14px;
+    font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+      font-weight: 600;
+}
+.emailbox{
+    font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+}
+.passbox{
+    font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
