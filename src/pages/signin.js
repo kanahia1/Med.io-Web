@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./signin.css";
+import Navbar from "../components/navbar";
 
 function Signin() {
   // React States
@@ -83,11 +84,13 @@ function Signin() {
   );
 
   return (
+    <div>
     <div className="signin">
       <div className="login-form">
         <div className="title">Sign In</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
       </div>
+    </div>
     </div>
   );
 }

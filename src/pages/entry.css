@@ -1,0 +1,221 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
+.tex{
+    text-align: center;
+    padding-top: 0rem;
+    margin-bottom: 2rem;
+}
+.text{
+    text-align: center;
+    padding-top: 7rem;
+}
+.text2{
+    font-family: 'Plus Jakarta Display', sans-serif;
+    font-size: 26px;
+    text-emphasis: 700;
+    padding-bottom: 30px;
+}
+
+.input2{
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.image{
+    padding-left: 180px;
+}
+
+.inputbox{
+    font-family: 'Plus Jakarta Display', sans-serif;
+    width: 300px;
+}
+
+.logo{
+    text-align: center;
+    height: 200px;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+
+.form{
+    display: inline-block;
+    width: 330px;
+
+    margin-left: 150px;
+    margin-right: 95px;
+}
+
+.patient{
+    position: absolute;
+  top: 15.06rem;
+  left: -1.16rem;
+  width: 8.88rem;
+  height: 8.88rem;
+}
+
+.content1{
+    position: absolute;
+  top: 15.25rem;
+  left: 16.06rem;
+  border-radius: var(--br-xs);
+  background-color: var(--gray-white);
+  box-shadow: var(--input-selected-blue-4);
+  border: 1px solid var(--blue-60);
+  box-sizing: border-box;
+  width: 35.81rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-wrapper,
+.content2 {
+  position: absolute;
+  width: 13.19rem;
+}
+.content2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--gray-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-wrapper {
+  top: 20.69rem;
+  left: 35.81rem;
+  height: 3.25rem;
+}
+
+.content-container,
+.content3 {
+  position: absolute;
+  width: 6.06rem;
+  height: 3.25rem;
+}
+.content3 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--gray-white);
+  overflow: hidden;
+}
+.content-container {
+  top: 21.12rem;
+  left: 52.69rem;
+}
+.content-frame,
+.content4 {
+  position: absolute;
+  width: 6.69rem;
+  height: 3.25rem;
+}
+.content4 {
+  top: 337px;
+  left: 970px;
+  border-radius: var(--br-xs);
+  background-color: var(--gray-white);
+  overflow: hidden;
+}
+.content-frame {
+  top: 17.69rem;
+  left: 56.44rem;
+}
+
+.group-div,
+.loremus-ipsumus-d-container {
+  position: absolute;
+  top: 1rem;
+  left: 1.44rem;
+  width: 3.69rem;
+  height: 1.25rem;
+}
+.group-div {
+  top: 21.12rem;
+  left: 69.3rem;
+  width: 6.69rem;
+  height: 3.25rem;
+}
+
+.content6 {
+    position: absolute;
+    top: 15.25rem;
+    left: 47.31rem;
+    border-radius: var(--br-xs);
+    background-color: var(--gray-white);
+    width: 23.81rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--gray-70);
+    padding-left: 50px;
+  }
+
+  .content-wrapper1,
+  .content7 {
+    position: absolute;
+    width: 9.06rem;
+  }
+  .content7 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    background-color: var(--gray-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content-wrapper1 {
+    top: 20.69rem;
+    left: 25.36rem;
+    height: 3.25rem;
+    color: var(--gray-70);
+  }
+
+/* .end{
+    width: 20%;
+} */
+.check{
+    display: block;
+    margin-bottom : 10px;
+}
+
+.addn{
+    position: absolute;
+    margin-top: 50px;
+    top: 26rem;
+    left: 42rem;
+}
+
+.nominee{
+    position: absolute;
+    top: 34rem;
+    left: 35rem;
+}
+
+.patient3{
+    position: absolute;
+    top: 40rem;
+    left: 44rem;
+
+}
+
+.ch{
+    width: 8rem;
+}
