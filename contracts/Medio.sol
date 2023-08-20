@@ -18,6 +18,8 @@ contract ElectronicHealthRecordSystem {
         string name;
         string specialization;
     }
+    address nominee;
+    bool isDeceased = false;
 
     mapping(address => Patient) public patients;
     mapping(address => Doctor) public doctors;
@@ -28,6 +30,10 @@ contract ElectronicHealthRecordSystem {
     }
 
     modifier onlyDoctor() {
+        require(bytes(doctors[msg.sender].name).length != 0, "Only registered doctors can perform this action");
+        _;
+    }
+    modifier onlyPatient(){
         require(bytes(doctors[msg.sender].name).length != 0, "Only registered doctors can perform this action");
         _;
     }
@@ -73,4 +79,12 @@ contract ElectronicHealthRecordSystem {
 
         return (patient.condition, patient.treatment);
     }
+   function setPatient(address _nominee) external onlyPatient returns(address){
+        nominee = _nominee;
+        return nominee;
+   }
+   function isDeceasedSetup(bool _isDeceased) external onlyDoctor returns(bool){
+       isDeceased = _isDeceased;
+       return isDeceased;
+   }
 }
