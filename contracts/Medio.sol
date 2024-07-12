@@ -11,6 +11,7 @@ contract ElectronicHealthRecordSystem {
         string gender;
         string condition;
         string treatment;
+        string time;
     }
 
     struct Doctor {
